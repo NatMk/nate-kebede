@@ -616,7 +616,7 @@ button { font: inherit; border: none; background: none; cursor: pointer; color: 
 
 /* Hero stats */
 .hero-stats {
-  margin-top: 64px;
+  margin-top: clamp(120px, 14vw, 180px);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
