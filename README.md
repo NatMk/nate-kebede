@@ -76,43 +76,86 @@ Before pushing, double-check these in `index.html`:
 - [ ] Headshot in `assets/nate-headshot.png` is the one you want public
 - [ ] `<meta>` description and Open Graph tags reflect the current pitch
 
-### One-time setup
+### Step 1 — Install Git (skip if you already have it)
 
-1. **Create a GitHub account** if you don't have one: https://github.com/signup
-2. **Create a new repository** at https://github.com/new
-   - Name it something like `nate-kebede` or `portfolio` (a short slug that becomes part of your URL)
-   - Set it to **Public**
-   - Do NOT initialize with a README (we already have one)
-3. **Install Git** if you haven't already: https://git-scm.com/download/win
+Open PowerShell and run:
 
-### Push your site
+```powershell
+git --version
+```
 
-Open PowerShell in the project folder (`C:\Users\kebede\Documents\My Web Page`) and run:
+- If you see a version number → skip to Step 2.
+- If you see "command not found" → download and install from https://git-scm.com/download/win (accept all defaults). Then **close and reopen PowerShell** and re-run `git --version` to confirm.
+
+### Step 2 — Set your Git identity (one-time, only on first use)
+
+```powershell
+git config --global user.name "Nate Kebede"
+git config --global user.email "yourgmail.com"
+```
+
+### Step 3 — Create a GitHub account & repository
+
+1. If you don't have a GitHub account: https://github.com/signup
+2. Once logged in, go to https://github.com/new
+3. Fill in:
+   - **Repository name**: `nate-kebede` (this becomes part of your URL)
+   - **Description**: `Personal website` (optional)
+   - **Public** ← required for GitHub Pages on free accounts
+   - **Do NOT** check "Add a README file"
+   - **Do NOT** add a `.gitignore` or license through the UI
+4. Click **Create repository**
+
+GitHub will show you a URL like `https://github.com/<your-username>/nate-kebede.git` — copy it for Step 5.
+
+### Step 4 — Initialize the local repository
+
+In PowerShell, navigate to the project folder:
+
+```powershell
+cd "C:\Users\kebede\Documents\My Web Page"
+```
+
+Then run:
 
 ```powershell
 git init
 git add .
 git commit -m "Initial site"
 git branch -M main
-git remote add origin https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
+```
+
+### Step 5 — Connect to GitHub and push
+
+Replace the URL below with the one you copied in Step 3:
+
+```powershell
+git remote add origin https://github.com/<YOUR_USERNAME>/nate-kebede.git
 git push -u origin main
 ```
 
-Replace `<YOUR_USERNAME>` and `<REPO_NAME>` with your actual values.
+The first push pops up a browser window asking you to authenticate with GitHub. Sign in and approve. When it finishes, refresh the GitHub repo page — all your files should be there.
 
-### Enable GitHub Pages
+### Step 6 — Enable GitHub Pages
 
-1. On GitHub, open your repo
-2. Click **Settings** → **Pages** (in the left sidebar)
+1. On your repo's GitHub page, click **Settings** (top nav)
+2. In the left sidebar, click **Pages**
 3. Under **Build and deployment**:
-   - **Source**: *Deploy from a branch*
+   - **Source**: `Deploy from a branch`
    - **Branch**: `main`, folder `/ (root)`
 4. Click **Save**
-5. Wait ~1 minute. Your site will be live at:
 
-   `https://<YOUR_USERNAME>.github.io/<REPO_NAME>/`
+A banner appears saying "Your site is being deployed."
 
-Share that URL with anyone: recruiters, hiring managers, your network.
+### Step 7 — Visit your live site
+
+Wait about 60 seconds, then refresh the Pages settings screen. The banner turns green and shows your URL:
+
+```
+https://<YOUR_USERNAME>.github.io/nate-kebede/
+```
+
+Open it. That's your live site. Share that URL with anyone: recruiters, hiring managers, your network.
 
 ### (Optional) Use a custom domain
 
@@ -140,7 +183,7 @@ All text content lives in `index.html`. Common edits:
 - **Projects**: search for `<!-- Projects -->` and edit any `<a class="project-card">`
 - **Education / Certs**: search for `<!-- Education -->`
 - **Testimonials**: search for `<!-- Testimonials -->`
-- **Contact info**: search for `nkebe9@gmail.com` and `(469) 623-4298`
+- **Contact info**: search for `youremail@gmail.com` and `(469) 623-XXXX`
 
 To swap a resume, just replace the PDF in `assets/resumes/` (keep the filename the same).
 
