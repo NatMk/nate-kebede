@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nate Kebede, Test Architect at Nokia. Cloud RAN, AI-RAN, 5G, Cybersecurity, and Cloud Engineering technical leader." />
+  <meta name="author" content="Nate Kebede" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Nate Kebede · Technical Lead | Cloud RAN • AI-RAN • Cybersecurity" />
+  <meta property="og:description" content="Test Architect at Nokia pioneering AI-RAN, Cloud RAN, and secure DevOps." />
+  <meta property="og:type" content="website" />
+
+  <title>Nate Kebede · Technical Lead | Cloud RAN • AI-RAN • Cybersecurity</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230ea5e9'/%3E%3Ctext x='50' y='68' font-family='Inter,sans-serif' font-size='58' font-weight='800' text-anchor='middle' fill='white'%3ENK%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- Animated background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Home">
+        <span class="logo-mark">
+          <img src="assets/nate-headshot.png" alt="" loading="eager" />
+        </span>
+        <span class="logo-text">Nate Kebede</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content reveal">
+          <span class="eyebrow">
+            <span class="status-dot"></span>
+            Test Architect @ Nokia · Dallas, TX
+          </span>
+          <h1 class="hero-title">
+            <span class="gradient-text">Nate Kebede</span><span class="cursor-blink">.</span>
+          </h1>
+          <p class="hero-tagline">
+            Architecting the future of <strong>AI-native</strong> mobile networks.
+          </p>
+          <p class="hero-subtitle">
+            Technical leader pioneering <strong>AI-RAN</strong>, <strong>Cloud RAN</strong>, and <strong>5G</strong> ecosystems.
+            I bring together telecom innovation, secure DevOps, and cloud-native architecture.
+          </p>
+          <p class="hero-description">
+            I lead end-to-end validation of next-generation RAN deployments at Nokia, where I architect automation,
+            harden containerized infrastructure, and bring AI-RAN demos to global stages like MWC and Radio World.
+            With an M.S. in Cybersecurity (4.0 GPA) and certifications across AWS, Azure, and Google Cloud,
+            I work at the intersection of <em>telecom</em>, <em>cloud</em>, and <em>security</em>.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">
+              <span>Get in Touch</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#projects" class="btn btn-ghost">View My Work</a>
+            <div class="resume-dropdown">
+              <button class="btn btn-outline" id="resumeBtn" aria-haspopup="true" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>Download Resume</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="resume-menu" id="resumeMenu" role="menu">
+                <a href="assets/resumes/Natnael_Kebede_General_Professional.pdf" download role="menuitem">
+                  <strong>General / Professional</strong>
+                  <span>Broad overview across all domains</span>
+                </a>
+                <a href="assets/resumes/Natnael_Kebede_AI_Cloud_Telecom.pdf" download role="menuitem">
+                  <strong>AI · Cloud · Telecom</strong>
+                  <span>Cloud RAN, AI-RAN, 5G focus</span>
+                </a>
+                <a href="assets/resumes/Natnael_Kebede_Cybersecurity.pdf" download role="menuitem">
+                  <strong>Cybersecurity</strong>
+                  <span>DevSecOps & container hardening focus</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/natnael-kebede/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.77c1.4-2.59 7-2.78 7 2.48V19z"/></svg>
+            </a>
+            <a href="https://github.com/NatMk" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+            <a href="mailto:nkebe9@gmail.com" aria-label="Email" title="Email">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="portrait">
+            <div class="portrait-frame">
+              <img src="assets/nate-headshot.png" alt="Nate Kebede" width="420" height="420" loading="eager" />
+              <span class="portrait-status" aria-hidden="true">
+                <span class="status-pulse"></span>
+                Open to what's next
+              </span>
+              <span class="photo-chip photo-chip-tl" aria-hidden="true"><span class="chip-dot" style="--dot:#22d3ee"></span>5G</span>
+              <span class="photo-chip photo-chip-tr" aria-hidden="true"><span class="chip-dot" style="--dot:#a855f7"></span>Cloud AI-RAN</span>
+              <span class="photo-chip photo-chip-ml" aria-hidden="true"><span class="chip-dot" style="--dot:#06b6d4"></span>O-RAN</span>
+              <span class="photo-chip photo-chip-mr" aria-hidden="true"><span class="chip-dot" style="--dot:#6366f1"></span>Kubernetes</span>
+              <span class="photo-chip photo-chip-cl" aria-hidden="true" title="Cloud Engineering"><span class="chip-dot" style="--dot:#ec4899"></span>Cloud Eng</span>
+              <span class="photo-chip photo-chip-cr" aria-hidden="true"><span class="chip-dot" style="--dot:#f472b6"></span>AI/ML</span>
+              <span class="photo-chip photo-chip-ll" aria-hidden="true"><span class="chip-dot" style="--dot:#38bdf8"></span>Automation</span>
+              <span class="photo-chip photo-chip-lr" aria-hidden="true"><span class="chip-dot" style="--dot:#fb923c"></span>NPI</span>
+              <span class="photo-chip photo-chip-bl" aria-hidden="true"><span class="chip-dot" style="--dot:#facc15"></span>CI/CD</span>
+              <span class="photo-chip photo-chip-br" aria-hidden="true"><span class="chip-dot" style="--dot:#34d399"></span>Cybersecurity</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-number" data-count="8">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="10">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="3">0</span>
+          <span class="stat-label">Cloud Platforms</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="4" data-decimal="1">0.0</span>
+          <span class="stat-label">M.S. GPA</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">About</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a Test Architect at <strong>Nokia</strong>, leading end-to-end validation of <strong>anyRAN</strong> and
+              <strong>AI-RAN</strong> deployments across labs, customer sites, and field trials. Over the past five years
+              I've shipped Cloud RAN PoCs, hardened Kubernetes-based CaaS platforms, automated CI/CD pipelines, and
+              presented next-generation telecom solutions to global customers and R&D leadership.
+            </p>
+            <p>
+              My career started in <strong>cybersecurity</strong> at Trend Micro and Lion Re:Sources, where I learned to
+              think defensively. That mindset still shapes how I approach everything from container scanning with
+              Trivy to compliance validation in production-bound RAN software. I hold an M.S. in Cybersecurity (4.0 GPA),
+              a B.S. in Computer Science (Cum Laude), and certifications across <strong>AWS</strong>, <strong>Azure</strong>,
+              and <strong>Google Cloud</strong>.
+            </p>
+            <p>
+              I love mentoring, and I've led Nokia's intern cohorts every summer since 2023. The work I find most
+              energizing is the messy, cross-discipline kind that shows up when AI, cloud, and 5G all meet in the same lab.
+            </p>
+            <div class="about-tags">
+              <span>Cloud RAN</span>
+              <span>AI-RAN</span>
+              <span>O-RAN</span>
+              <span>5G Core</span>
+              <span>Kubernetes</span>
+              <span>Red Hat OCP</span>
+              <span>DevSecOps</span>
+              <span>CI/CD</span>
+              <span>Container Hardening</span>
+              <span>Multi-Cloud</span>
+            </div>
+          </div>
+          <div class="about-highlights reveal">
+            <div class="highlight-card">
+              <div class="highlight-icon" style="--c1:#0ea5e9;--c2:#22d3ee">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h20M2 21h20M6 3v18M18 3v18M2 9h20M2 15h20"/></svg>
+              </div>
+              <h3>Telecom Innovation</h3>
+              <p>Architecting and validating Cloud RAN & AI-RAN solutions deployed by global tier-1 carriers.</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon" style="--c1:#a855f7;--c2:#ec4899">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3>Security-First Mindset</h3>
+              <p>Built CI/CD vulnerability scanning that cut RAN image vulnerabilities by 40% pre-release.</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon" style="--c1:#10b981;--c2:#34d399">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+              </div>
+              <h3>Cloud-Native Expertise</h3>
+              <p>Multi-cloud certified across AWS, Azure, and GCP. Fluent in Kubernetes and Red Hat OpenShift.</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon" style="--c1:#f59e0b;--c2:#fbbf24">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3>Mentor & Communicator</h3>
+              <p>Lead Nokia intern cohorts and present AI-RAN demos at MWC, Radio World, and to executive teams.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"><span class="pulse"></span></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>Test Architect</h3>
+                  <p class="timeline-company">Nokia · Dallas, TX</p>
+                </div>
+                <span class="timeline-period">Aug 2025 to Present</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Lead Cloud RAN and AI-RAN stream activities (WebScale, IaaS, CaaS, Blueprint, O-FH, all-in-one enterprise solutions), ensuring seamless delivery for local and global customers.</li>
+                <li>Validate end-to-end Cloud RAN software life-cycle management across PoC, customer labs, and field trials to accelerate deployment readiness and customer adoption.</li>
+                <li>Design and implement IP and deployment models (standalone, mobility carts, lab/field) that enable scalable, flexible solutions tailored to diverse customer environments.</li>
+                <li>Drive classical-to-cloud migration projects, cluster audits, demo use-case scripting, and AI-RAN tool development to strengthen solution reliability and trial outcomes.</li>
+                <li>Prepare technical documentation and deliver competency transfer sessions, improving knowledge sharing and empowering customer support teams to resolve issues faster.</li>
+                <li>Present Cloud RAN and AI-RAN demos to customers, R&D, and engagement teams, driving stakeholder alignment and showcasing solution capabilities.</li>
+                <li>Collaborate with Nokia's Cloud & AI ecosystem partners to showcase AI-RAN use cases at global events such as <strong>MWC</strong> and <strong>Radio World</strong>, enhancing industry visibility and customer confidence.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>AI-RAN</span><span>Cloud RAN</span><span>Kubernetes</span><span>5G Core</span><span>RHOCP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>System Support Engineer · Cloud RAN</h3>
+                  <p class="timeline-company">Nokia · Dallas, TX</p>
+                </div>
+                <span class="timeline-period">Nov 2022 to Aug 2025</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Integrated Trivy-based scans into the CI/CD pipeline, cutting image vulnerabilities by <strong>40%</strong> prior to RAN SW delivery.</li>
+                <li>Automated the CI/CD deployment process, reducing environment setup time by <strong>30%</strong>.</li>
+                <li>Executed Cloud RAN PoCs, platform bring-up, and network creation with Kubernetes and Red Hat OpenShift.</li>
+                <li>Performed image hardening, penetration test validation, and post-release security audits.</li>
+                <li>Led and mentored Nokia's summer intern cohorts from 2023 through 2025.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Trivy</span><span>CI/CD</span><span>Kubernetes</span><span>Container Hardening</span><span>Mentorship</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>System Support Engineer · O-RAN</h3>
+                  <p class="timeline-company">Nokia · Dallas, TX</p>
+                </div>
+                <span class="timeline-period">Jun 2021 to Oct 2022</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Demonstrated O-RAN RIC use cases (ATS, AD, CDIO) to executive teams and customers.</li>
+                <li>Executed interoperability and IOT tests, and automated workflows to validate O-RAN fronthaul.</li>
+                <li>Troubleshot DU/RU connectivity issues and optimized power configurations in test environments.</li>
+                <li>Maintained secure data-collection platforms and analyzed telemetry for anomalies.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>O-RAN</span><span>RIC</span><span>Fronthaul</span><span>Test Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>5G Systems Engineer</h3>
+                  <p class="timeline-company">Nokia · Dallas, TX</p>
+                </div>
+                <span class="timeline-period">Oct 2020 to Jun 2021</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Executed system build-up, installation, commissioning, and integration of 5G end-to-end secure network elements.</li>
+                <li>Performed system upgrades to launch service pack (SP) and operating system (OS) versions, and to address critical security issues.</li>
+                <li>Tested new Nokia system software releases for stable performance and customer specification compliance prior to delivery.</li>
+                <li>Configured network optimization features and 5G architecture components to demonstrate security capabilities.</li>
+                <li>Tested commercial user-equipment devices for stable network connection and reliable data flow.</li>
+                <li>Performed drive tests using both commercial networks and customer-aligned Nokia test lines, monitoring connections and executing test cases.</li>
+                <li>Replicated customer-reported faults in the Nokia lab and analyzed logs with real-time monitoring tools to troubleshoot network issues.</li>
+                <li>Supported automated test-case planning and content creation, improving efficiency while maintaining the integrity of mission-critical networks.</li>
+                <li>Produced parameters and Key Performance Indicators (KPIs) to validate system software delivery across the Americas, and generated reports on testing, faults, and support activity.</li>
+                <li>Provided remote and on-site support to 5G customers through lab and field activities, and prepared technical requirement specifications and guiding documentation for R&D.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>5G</span><span>System Integration</span><span>Drive Testing</span><span>KPI Analysis</span><span>Test Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>Global Security Office Associate</h3>
+                  <p class="timeline-company">Lion Re:Sources (Publicis Groupe) · Irving, TX</p>
+                </div>
+                <span class="timeline-period">Jan 2020 to Sep 2020</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Administered enterprise vulnerability management tooling and log-analysis platforms to support incident investigation across the global organization.</li>
+                <li>Triaged security alerts from SIEM and endpoint detection platforms, escalating high-severity findings to IT and engineering owners.</li>
+                <li>Tracked vulnerability remediation tickets through to closure, ensuring SLA adherence and verifying fixes through follow-up scans.</li>
+                <li>Automated repetitive security operations tasks using SQL, Python, and JavaScript, freeing up analyst time for higher-value work.</li>
+                <li>Supported PCI-aligned compliance scanning cycles and prepared remediation evidence for audit reviews.</li>
+                <li>Generated executive summaries and KPI reports for security leadership, surfacing trends in vulnerability posture and risk reduction.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Vulnerability Mgmt</span><span>SOC</span><span>SIEM</span><span>PCI-DSS</span><span>Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>IT Security Associate</h3>
+                  <p class="timeline-company">Trend Micro Inc. · Irving, TX</p>
+                </div>
+                <span class="timeline-period">Sep 2019 to Nov 2019</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Selected for the inaugural <strong>CPITS</strong> (Cybersecurity Practitioner IT Specialist) cohort, the first program of its kind in the United States offered by Trend Micro.</li>
+                <li>Deployed and configured Trend Micro Deep Security Hybrid Cloud across AWS and Azure environments to protect customer workloads.</li>
+                <li>Designed a defense-in-depth response plan for a banking customer hit by an unknown ransomware variant, aligning controls to PCI-DSS and GDPR.</li>
+                <li>Conducted enterprise network surveys, packet captures, and host vulnerability scans, then recommended mitigation strategies and hardened network designs.</li>
+                <li>Presented network defense, threat detection, and incident response strategies to technical panels and executive stakeholders.</li>
+                <li>Earned the <strong>Trend Micro Certified Cybersecurity Professional</strong> and <strong>Deep Security 11 Certified Professional</strong> credentials during the program.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Hybrid Cloud</span><span>AWS</span><span>Azure</span><span>Endpoint Security</span><span>Incident Response</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category reveal">
+            <div class="skill-cat-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              <h3>Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span>Python</span><span>Java</span><span>C/C++</span><span>SQL</span>
+              <span>JavaScript</span><span>HTML/CSS</span><span>MATLAB</span><span>ARM Assembly</span><span>SQLAlchemy</span>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-cat-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+              <h3>Cloud & Platforms</h3>
+            </div>
+            <div class="skill-tags">
+              <span>AWS</span><span>Azure</span><span>Google Cloud</span><span>Red Hat OCP</span>
+              <span>Kubernetes</span><span>Docker</span><span>Wind River</span>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-cat-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <h3>Security & DevSecOps</h3>
+            </div>
+            <div class="skill-tags">
+              <span>Trivy</span><span>NetWitness</span><span>Nmap</span><span>Wireshark</span>
+              <span>Vulnerability Mgmt</span><span>Container Hardening</span><span>PCI-DSS</span><span>Trend Micro Deep Security</span>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-cat-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"/></svg>
+              <h3>Telecom & RAN</h3>
+            </div>
+            <div class="skill-tags">
+              <span>Cloud RAN</span><span>AI-RAN</span><span>O-RAN</span><span>5G Core</span>
+              <span>RIC (ATS, AD, CDIO)</span><span>Fronthaul</span><span>IOT/Interop</span>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-cat-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 3 3 21 21 21"/><path d="M9 9l3-3 3 3 5-5"/></svg>
+              <h3>Frameworks & Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <span>GitHub Copilot</span><span>Cursor</span><span>Flask</span><span>Spring Boot</span><span>AngularJS</span>
+              <span>RESTful APIs</span><span>Git</span><span>MongoDB</span><span>MySQL Workbench</span><span>SQLite</span>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-cat-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              <h3>Operating Systems</h3>
+            </div>
+            <div class="skill-tags">
+              <span>Linux</span><span>Unix</span><span>Red Hat OCP</span><span>Wind River</span>
+              <span>Windows</span><span>Android</span><span>iOS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <a class="project-card reveal" href="https://github.com/NatMk/Strategic-Cyber-Practicum" target="_blank" rel="noopener">
+            <div class="project-icon" style="--g:linear-gradient(135deg,#6366f1,#8b5cf6)">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Strategic Cybersecurity Plan</h3>
+            <p>End-to-end cybersecurity blueprint for an investment management firm covering team structure, KPIs, BCDR, training, and a full proposed budget.</p>
+            <div class="project-tags"><span>Risk Mgmt</span><span>Strategy</span><span>BCDR</span></div>
+          </a>
+
+          <a class="project-card reveal" href="https://github.com/NatMk/Internship_Projects.git" target="_blank" rel="noopener">
+            <div class="project-icon" style="--g:linear-gradient(135deg,#ef4444,#f97316)">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3>Bank Ransomware Response</h3>
+            <p>Threat-defense engagement for a banking client hit by an unknown ransomware. Delivered a defense-in-depth strategy aligned to PCI-DSS and GDPR.</p>
+            <div class="project-tags"><span>Incident Response</span><span>PCI-DSS</span><span>Deep Security</span></div>
+          </a>
+
+          <a class="project-card reveal" href="https://github.com/NatMk/Network_Security/blob/master/Kebede_Paper-3.doc" target="_blank" rel="noopener">
+            <div class="project-icon" style="--g:linear-gradient(135deg,#0ea5e9,#06b6d4)">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"/></svg>
+            </div>
+            <h3>Network Design & Security Plan</h3>
+            <p>Enterprise network survey, vulnerability assessment, and hardened network architecture with policies for remote resource access.</p>
+            <div class="project-tags"><span>Network Security</span><span>Hardening</span><span>Nmap</span></div>
+          </a>
+
+          <a class="project-card reveal" href="https://hub.docker.com/r/nkebede/linux_tweet_app/tags" target="_blank" rel="noopener">
+            <div class="project-icon" style="--g:linear-gradient(135deg,#10b981,#14b8a6)">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3>Linux Tweet App (Docker)</h3>
+            <p>Customized web app demonstrating the build, ship, and run Docker workflow, published to Docker Hub.</p>
+            <div class="project-tags"><span>Docker</span><span>DevOps</span><span>Linux</span></div>
+          </a>
+
+          <a class="project-card reveal" href="https://github.com/NatMk/OS" target="_blank" rel="noopener">
+            <div class="project-icon" style="--g:linear-gradient(135deg,#f59e0b,#eab308)">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+            </div>
+            <h3>Mav Shell & FAT32 File System</h3>
+            <p>Bourne-style shell and a FAT32 file system interpreter, with deep dives into systems programming, process forking, and file allocation tables.</p>
+            <div class="project-tags"><span>C</span><span>Systems</span><span>Linux</span></div>
+          </a>
+
+          <a class="project-card reveal" href="https://github.com/NatMk/OS" target="_blank" rel="noopener">
+            <div class="project-icon" style="--g:linear-gradient(135deg,#22c55e,#0ea5e9)">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><path d="M7 7h10M7 11h6"/></svg>
+            </div>
+            <h3>Linux System Calls</h3>
+            <p>Compiled and installed a custom Linux kernel and added new system calls. Hands-on experience moving memory between user space and kernel space.</p>
+            <div class="project-tags"><span>Linux Kernel</span><span>C</span><span>Systems</span></div>
+          </a>
+
+          <a class="project-card reveal" href="https://github.com/NatMk/Senior-Design-Project-2" target="_blank" rel="noopener">
+            <div class="project-icon" style="--g:linear-gradient(135deg,#a855f7,#d946ef)">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg>
+            </div>
+            <h3>Interactive Degree Planner</h3>
+            <p>Senior design project. Desktop app that builds balanced semester schedules for UTA Computer Science students based on course difficulty.</p>
+            <div class="project-tags"><span>Senior Design</span><span>Java</span><span>UX</span></div>
+          </a>
+
+          <a class="project-card reveal" href="#" data-no-link>
+            <div class="project-icon" style="--g:linear-gradient(135deg,#4285f4,#34a853)">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3>Google Cloud DevOps Pipeline</h3>
+            <p>CI pipeline using Cloud Source Repositories, Cloud Build, build triggers, and Container Registry, deploying a Flask + Gunicorn web app.</p>
+            <div class="project-tags"><span>GCP</span><span>CI/CD</span><span>Flask</span></div>
+          </a>
+
+          <a class="project-card reveal" href="https://github.com/NatMk/Operational_Cybersecurity/tree/master/Breach%20Project" target="_blank" rel="noopener">
+            <div class="project-icon" style="--g:linear-gradient(135deg,#ec4899,#f43f5e)">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3z" transform="translate(-3,0)"/><circle cx="12" cy="12" r="10"/></svg>
+            </div>
+            <h3>Operational Cyber Management</h3>
+            <p>Executive analysis of major industry breaches covering vulnerabilities, risk/loss values, and access-control recommendations mapped to NIST CSF.</p>
+            <div class="project-tags"><span>NIST CSF</span><span>Risk</span><span>Reporting</span></div>
+          </a>
+        </div>
+        <p class="projects-cta reveal">
+          More on
+          <a href="https://github.com/NatMk" target="_blank" rel="noopener">GitHub</a>
+          and
+          <a href="https://www.linkedin.com/in/natnael-kebede/" target="_blank" rel="noopener">LinkedIn</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Education &amp; Certifications</h2>
+        </div>
+        <div class="edu-grid">
+          <div class="edu-card reveal">
+            <div class="edu-header">
+              <div class="edu-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <span class="edu-gpa">GPA 4.0</span>
+            </div>
+            <h3>Master of Science in Cybersecurity</h3>
+            <p class="edu-school">University of Dallas · Irving, TX</p>
+            <p class="edu-meta">2019 to 2020 · NSA & DHS Designated Program</p>
+            <p class="edu-desc">
+              Topics: Security & Risk Mgmt, Security Engineering, IAM, Security Operations, Asset Security,
+              Communications & Network Security, Security Assessment, Software Development Security.
+            </p>
+          </div>
+
+          <div class="edu-card reveal">
+            <div class="edu-header">
+              <div class="edu-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <span class="edu-gpa">Cum Laude · GPA 3.5</span>
+            </div>
+            <h3>B.S. in Computer Science</h3>
+            <p class="edu-school">University of Texas at Arlington · Arlington, TX</p>
+            <p class="edu-meta">2015 to 2018</p>
+            <p class="edu-desc">
+              Coursework across Operating Systems, Algorithms, Databases, Networking, Software Engineering,
+              Object-Oriented Programming, Computer Graphics, and Senior Design.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="cert-heading reveal">Certifications</h3>
+        <div class="cert-grid">
+          <!-- AI / GenAI -->
+          <div class="cert-card reveal">
+            <span class="cert-ai">AI</span>
+            <h4>Nokia Google Cloud GenAI Proficiency</h4>
+            <p>Google</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-ai">AI</span>
+            <h4>Generative AI Overview for Project Managers</h4>
+            <p>Project Management Institute (PMI)</p>
+          </div>
+
+          <!-- Cloud -->
+          <div class="cert-card reveal">
+            <span class="cert-cloud">Cloud</span>
+            <h4>AWS Certified Cloud Practitioner</h4>
+            <p>Amazon Web Services</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-cloud">Cloud</span>
+            <h4>Architecting on AWS</h4>
+            <p>Amazon Web Services · Sep 2019</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-cloud">Cloud</span>
+            <h4>Security Engineering on AWS</h4>
+            <p>Amazon Web Services · Nov 2019</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-cloud">Cloud</span>
+            <h4>Microsoft Azure Administrator Associate</h4>
+            <p>Microsoft · Nov 2019</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-cloud">Cloud</span>
+            <h4>Microsoft Azure Fundamentals</h4>
+            <p>Microsoft</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-cloud">Cloud</span>
+            <h4>Google Cloud Associate Cloud Engineer</h4>
+            <p>Google Cloud</p>
+          </div>
+
+          <!-- Security -->
+          <div class="cert-card reveal">
+            <span class="cert-sec">Security</span>
+            <h4>Senior Security Practitioner</h4>
+            <p>Nokia · Oct 2024</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-sec">Security</span>
+            <h4>Cyber Defense</h4>
+            <p>The University of Dallas · Sep 2020</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-sec">Security</span>
+            <h4>Cyber Operations</h4>
+            <p>The University of Dallas · Jan 2020</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-sec">Security</span>
+            <h4>Cyber Essentials</h4>
+            <p>University of Dallas</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-sec">Security</span>
+            <h4>Trend Micro Certified Cybersecurity Pro</h4>
+            <p>Trend Micro</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-sec">Security</span>
+            <h4>Trend Micro Deep Security 11</h4>
+            <p>Certified Professional</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-sec">Security</span>
+            <h4>CompTIA Security+ (SY0-501)</h4>
+            <p>Course Completion · Udemy</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-sec">Security</span>
+            <h4>CISSP (Course Completion)</h4>
+            <p>Cybrary</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-sec">Security</span>
+            <h4>Cybersecurity for ICS</h4>
+            <p>U.S. Department of Homeland Security</p>
+          </div>
+
+          <!-- Telecom -->
+          <div class="cert-card reveal">
+            <span class="cert-tel">Telecom</span>
+            <h4>Nokia Bell Labs End-to-End 5G Foundation</h4>
+            <p>Nokia Bell Labs</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-tel">Telecom</span>
+            <h4>Linux Orange Belt</h4>
+            <p>Nokia</p>
+          </div>
+          <div class="cert-card reveal">
+            <span class="cert-tel">Telecom</span>
+            <h4>Phoenix 3F BTS Troubleshooting</h4>
+            <p>Foundation · Nokia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Testimonials</h2>
+        </div>
+        <div class="testimonial-grid">
+          <figure class="testimonial reveal">
+            <svg class="quote-mark" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 5C5.36 5 2 8.36 2 12.5S5.36 20 9.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5C7.57 16 6 14.43 6 12.5S7.57 9 9.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5zm12 0c-4.14 0-7.5 3.36-7.5 7.5S17.36 20 21.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5-1.93 0-3.5-1.57-3.5-3.5S19.57 9 21.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5z"/></svg>
+            <blockquote>
+              I had the pleasure to work with Nate in the O-RAN and Cloud RAN unit at Nokia. As a Systems Engineer,
+              I found him to be a very quick learner, a great team player who performs well under high pressure,
+              and extremely cooperative in supporting the team technically. He was an integral part of the seamless
+              demos we delivered to our customers and prospective clients interested in O-RAN. Nate would be a great
+              asset to any team he joins with his strong technical skills and easy-going personality.
+            </blockquote>
+            <figcaption>
+              <strong>Ayesha Khan</strong>
+              <span>Colleague at Nokia · O-RAN and Cloud RAN</span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal">
+            <svg class="quote-mark" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 5C5.36 5 2 8.36 2 12.5S5.36 20 9.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5C7.57 16 6 14.43 6 12.5S7.57 9 9.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5zm12 0c-4.14 0-7.5 3.36-7.5 7.5S17.36 20 21.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5-1.93 0-3.5-1.57-3.5-3.5S19.57 9 21.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5z"/></svg>
+            <blockquote>
+              Nate is a dedicated, detail-oriented, and knowledgeable professional. He always strives for
+              the best in everything he pursues and keeps on top of timelines. During my time working with
+              him in graduate school and at Trend Micro, he was a trustable team player who I knew got the
+              job done and was tireless in his approach. His strong work ethic, great team play, and timely
+              approach make him a worthy and excelling professional in whatever he does. He also has a knack
+              for problem-solving!
+            </blockquote>
+            <figcaption>
+              <strong>Michael Muita Mugo</strong>
+              <span>Graduate School &amp; Trend Micro Colleague</span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal">
+            <svg class="quote-mark" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 5C5.36 5 2 8.36 2 12.5S5.36 20 9.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5C7.57 16 6 14.43 6 12.5S7.57 9 9.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5zm12 0c-4.14 0-7.5 3.36-7.5 7.5S17.36 20 21.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5-1.93 0-3.5-1.57-3.5-3.5S19.57 9 21.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5z"/></svg>
+            <blockquote>
+              I had the pleasure to work with Nate and was immediately impressed with his knowledge and
+              positive attitude. Nate is analytical and detail-oriented, which added great value to our
+              team and to his support on our vulnerability management automation tool. Nate does not shy
+              away from a challenge and is always taking initiative to improve his skill set and expand
+              his knowledge of the organization. He's a quick learner and has a teamwork mindset. Nate
+              will be a great asset to any organization that he is a part of.
+            </blockquote>
+            <figcaption>
+              <strong>Carly Stewart</strong>
+              <span>Sr. Technical Project Manager at Glassdoor · Lion Re:Sources teammate</span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal">
+            <svg class="quote-mark" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 5C5.36 5 2 8.36 2 12.5S5.36 20 9.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5C7.57 16 6 14.43 6 12.5S7.57 9 9.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5zm12 0c-4.14 0-7.5 3.36-7.5 7.5S17.36 20 21.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5-1.93 0-3.5-1.57-3.5-3.5S19.57 9 21.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5z"/></svg>
+            <blockquote>
+              Nate used to wear a smiling face, no matter the condition, which kept us warm while working
+              together in the Global Security Office department. He is also self-motivated, has a very
+              bright mind, and is a very quick learner. He adopted various programming languages needed to
+              support and enhance our vulnerability management automation tool. He always assured us the
+              best solutions to technical problems with unwavering confidence even when there were few
+              options to employ. He also implemented best practices and detailed system documentation for
+              our team. He was indeed a shoulder to lean on and a great resource to any organization he joins.
+            </blockquote>
+            <figcaption>
+              <strong>Bharatbhushan Goudar</strong>
+              <span>Senior Technical Engineer · Lion Re:Sources Global Security Office teammate</span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal">
+            <svg class="quote-mark" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 5C5.36 5 2 8.36 2 12.5S5.36 20 9.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5C7.57 16 6 14.43 6 12.5S7.57 9 9.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5zm12 0c-4.14 0-7.5 3.36-7.5 7.5S17.36 20 21.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5-1.93 0-3.5-1.57-3.5-3.5S19.57 9 21.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5z"/></svg>
+            <blockquote>
+              Nate is a natural leader. He inspired colleagues and those whom he supervised, daily. He is
+              one of the few in similar positions that I have observed with the talent and disposition to
+              be most trusted for efficiency and effectiveness of entire teams under his leadership. I
+              endorse him in this area because he has the ability to execute projects that will exceed
+              expectations, and I wish he was still on my team.
+            </blockquote>
+            <figcaption>
+              <strong>Dan Garcia</strong>
+              <span>VP for Enrollment Management at the University of New Mexico · former direct manager at UTA</span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial reveal">
+            <svg class="quote-mark" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 5C5.36 5 2 8.36 2 12.5S5.36 20 9.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5C7.57 16 6 14.43 6 12.5S7.57 9 9.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5zm12 0c-4.14 0-7.5 3.36-7.5 7.5S17.36 20 21.5 20c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5-1.93 0-3.5-1.57-3.5-3.5S19.57 9 21.5 9c.37 0 .5-.13.5-.5v-3c0-.37-.13-.5-.5-.5z"/></svg>
+            <blockquote>
+              Nate is a smart, reliable, and dedicated individual. He has a very friendly and easy-going
+              manner with a strong desire to excel and be the best. Any organization that values a good
+              work ethic, integrity, intelligence, results, teamwork, and accountability would want Nate
+              in their organization.
+            </blockquote>
+            <figcaption>
+              <strong>Zane Gober</strong>
+              <span>Marketing Solutions Lead · Former teammate</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Contact</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <a class="contact-card" href="mailto:nkebe9@gmail.com">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">nkebe9@gmail.com</span>
+              </div>
+            </a>
+            <a class="contact-card" href="tel:+14696234298">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Phone</span>
+                <span class="contact-value">+1 (469) 623-4298</span>
+              </div>
+            </a>
+            <a class="contact-card" href="https://www.linkedin.com/in/natnael-kebede/" target="_blank" rel="noopener">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.77c1.4-2.59 7-2.78 7 2.48V19z"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">linkedin.com/in/natnael-kebede</span>
+              </div>
+            </a>
+            <a class="contact-card" href="https://github.com/NatMk" target="_blank" rel="noopener">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/NatMk</span>
+              </div>
+            </a>
+            <div class="contact-card contact-card-static">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Dallas, TX</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <h3>Send a message</h3>
+            <p class="form-help">This will open your email client with a pre-filled message to me.</p>
+            <div class="form-row">
+              <label>
+                <span>Your name</span>
+                <input type="text" name="name" required autocomplete="name" placeholder="Jane Doe" />
+              </label>
+              <label>
+                <span>Your email</span>
+                <input type="email" name="email" required autocomplete="email" placeholder="jane@company.com" />
+              </label>
+            </div>
+            <label>
+              <span>Subject</span>
+              <input type="text" name="subject" required placeholder="Opportunity / Collaboration / Question" />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" required placeholder="Tell me a bit about what you're working on…"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">
+              <span>Send Message</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <p class="form-success" id="formSuccess" hidden>Your email client should be open now. Looking forward to hearing from you.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Nate Kebede · Built with care in Dallas, TX</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/natnael-kebede/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/NatMk" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:nkebe9@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#hero" class="scroll-top" id="scrollTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
