@@ -314,7 +314,10 @@ button { font: inherit; border: none; background: none; cursor: pointer; color: 
   grid-template-columns: 1.1fr 0.9fr;
   gap: clamp(40px, 6vw, 80px);
   align-items: center;
+  position: relative;
+  z-index: 3;
 }
+.hero-content { position: relative; z-index: 3; }
 
 .eyebrow {
   display: inline-flex;
@@ -406,7 +409,7 @@ button { font: inherit; border: none; background: none; cursor: pointer; color: 
   margin-bottom: 32px;
 }
 
-.resume-dropdown { position: relative; }
+.resume-dropdown { position: relative; z-index: 30; }
 .resume-menu {
   position: absolute;
   top: calc(100% + 8px);
@@ -421,7 +424,7 @@ button { font: inherit; border: none; background: none; cursor: pointer; color: 
   pointer-events: none;
   transform: translateY(-6px);
   transition: opacity 0.2s var(--ease), transform 0.2s var(--ease);
-  z-index: 20;
+  z-index: 50;
 }
 .resume-menu.open {
   opacity: 1;
@@ -622,6 +625,8 @@ button { font: inherit; border: none; background: none; cursor: pointer; color: 
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
+  position: relative;
+  z-index: 1;
 }
 .stat {
   text-align: center;
