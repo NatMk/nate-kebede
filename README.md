@@ -91,7 +91,7 @@ git --version
 
 ```powershell
 git config --global user.name "Nate Kebede"
-git config --global user.email "nkebe9@gmail.com"
+git config --global user.email "youremail@gmail.com"
 ```
 
 ### Step 3 — Create a GitHub account & repository
