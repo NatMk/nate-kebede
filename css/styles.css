@@ -591,8 +591,8 @@ button { font: inherit; border: none; background: none; cursor: pointer; color: 
 .photo-chip-tl, .photo-chip-tr { top: 4%; }
 .photo-chip-ml, .photo-chip-mr { top: 23%; }
 .photo-chip-cl, .photo-chip-cr { top: 42%; }
-.photo-chip-ll, .photo-chip-lr { top: 61%; }
-.photo-chip-bl, .photo-chip-br { top: 80%; }
+.photo-chip-ll, .photo-chip-lr { top: 60%; }
+.photo-chip-bl, .photo-chip-br { top: 74%; }
 
 .photo-chip-tl { animation-delay: 0s; }
 .photo-chip-tr { animation-delay: 0.35s; }
@@ -1437,14 +1437,14 @@ button { font: inherit; border: none; background: none; cursor: pointer; color: 
   .form-row { grid-template-columns: 1fr; }
   .timeline-header { flex-direction: column; }
 
-  .portrait { width: min(300px, 100%); }
-  .photo-chip { padding: 5px 9px; font-size: 10px; gap: 6px; }
+  .portrait { width: min(320px, 100%); }
+  .photo-chip { padding: 4px 8px; font-size: 9px; gap: 5px; }
   .photo-chip .chip-dot { width: 5px; height: 5px; }
-  .photo-chip-cl, .photo-chip-cr,
-  .photo-chip-bl, .photo-chip-br { display: none; }
   .photo-chip-tl, .photo-chip-tr { top: 4%; }
-  .photo-chip-ml, .photo-chip-mr { top: 35%; }
-  .photo-chip-ll, .photo-chip-lr { top: 66%; }
+  .photo-chip-ml, .photo-chip-mr { top: 23%; }
+  .photo-chip-cl, .photo-chip-cr { top: 42%; }
+  .photo-chip-ll, .photo-chip-lr { top: 60%; }
+  .photo-chip-bl, .photo-chip-br { top: 74%; }
 
   .scroll-top { bottom: 16px; right: 16px; }
 }
